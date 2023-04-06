@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    
+    <title>Bootstrap Table and Form with DOM</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    
+</head>
+    <body>
+        <!--- Nav-->
+
+		<ul class=" container shadow nav justify-content-center fs-4">
+			<li class="nav-item">
+			  <a class="nav-link active" aria-current="page" href="#">Active</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">Link</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">Link</a>
+			</li>
+		</ul>
+
+		<div class="container shadow fs-6">
+            <h3 >Nav Form and Table</h3>
+		    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quo quis provident dolor iusto numquam voluptates eaque accusantium neque dolorum facilis, corrupti, nostrum quos, ex voluptate vel. Repellat, voluptatum illo!</p>
+	    </div>
+
+		<!--- form-->
+		<div class="fs-4 mb-5  container shadow">
+			    <form class="container">
+			        <label class="form-control">First Name:</label>
+			        <input type="text" id="firstNameInput">
+
+					<label class="form-control">Last Name:</label>
+			        <input type="text" id="lastNameInput">
+		  
+			        <label class="form-control">Age:</label>
+			        <input type="number" id="ageInput">
+		  
+			        <label class="form-control">Email:</label>
+			        <input type="email" id="emailInput">
+				    <button class='btn btn-primary' type="submit">Submit</button>
+			    </form> <br> <br>
+            </div>
+
+          <!--- table-->
+		<div class="container shadow fs-4 ">
+			<table id="myTable" id="list" class="table table-hover border-primary ">
+				<tr>
+					<th>#</th>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Age</th>
+					<th>Email</th>
+				</tr>
+		    </table> 
+		</div> 
+	    <script src="week10Vid.js"></script>
+		
+		
+    </body>
+</html>  
+
+
+
+
+
